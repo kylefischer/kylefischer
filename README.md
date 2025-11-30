@@ -2,19 +2,95 @@
 
 ---
 
-- 👨‍💻 All of my projects are available at [kylefischer.dev](kylefischer.dev)
+<h1 align="center">Hi, I'm Kyle Fischer 👋</h1>
 
-- 📫 How to reach me **kylefischer@berkeley.edu**
+<p align="center">
+  <strong>Data Scientist • NLP + Machine Learning • Cognitive Science @ UC Berkeley</strong>
+</p>
 
-- 📄 Know about my experiences [drive.google.com](drive.google.com)
+<p align="center">
+  <a href="https://www.linkedin.com/in/kylepfischer"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
+  <a href="https://github.com/kylefischer"><img src="https://img.shields.io/badge/GitHub-000?style=flat&logo=github&logoColor=white"></a>
+  <a href="mailto:kylefischer@berkeley.edu"><img src="https://img.shields.io/badge/Email-berkeley.edu-red?style=flat&logo=gmail&logoColor=white"></a>
+</p>
 
 ---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/kylepfischer" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kylepfischer" height="30" width="40" /></a>
+## 🚀 About Me  
+I'm a Data Scientist with experience in **machine learning, statistical modeling, NLP, data engineering, and large–scale analysis**.  
+I build **end-to-end data and ML pipelines**, extract insights from massive datasets, and create tools that support research and product decisions.  
+
+I enjoy working across:
+- Natural Language Processing (embeddings, semantic similarity, clustering)  
+- Experimentation & statistical analysis  
+- Dashboarding and interactive data visualization  
+- Automation + data pipelines at scale  
+- Cognitive science–informed modeling  
+
+---
+
+## 🧠 Skills & Technologies
+
+### **Languages**
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45"/>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+### **Libraries / Frameworks / Tools**
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/beautifulsoup/beautifulsoup-original.svg" width="45"/>
+  <img src="https://img.shields.io/badge/HuggingFace-%F0%9F%A4%97-yellow?style=for-the-badge" height="30">
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" height="30"/>
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" height="30"/>
+</p>
+
+---
+
+## 📊 Experience Highlights
+
+### 🔬 **Undergraduate Research Data Scientist — UC Berkeley CoRE Lab**  
+*Jan 2025 – Present*  
+- Built full **NLP pipeline** with **SBERT embeddings + cosine similarity** analyzing >300 nationwide CS credential program descriptions.  
+- Automated large-scale **web scraping** across 40+ institutions (5× coverage improvement).  
+- Applied **unsupervised learning** for semantic clustering of programs.  
+- Delivered **visualizations + technical reports** for upcoming academic publications.
+
+### 📈 **Data Analyst — UC Berkeley Haas School of Business**  
+*Feb 2025 – Oct 2025*  
+- Engineered **data-cleaning pipelines** for datasets >10M rows.  
+- Built high-precision **entity resolution** models (TF-IDF, Levenshtein) achieving **95%+ precision**.  
+- Merged multi-source datasets with reproducible workflows for research analytics.
+
+---
+
+## 📦 GitHub Stats  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kylefischer&show_icons=true&theme=github_dark&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kylefischer&layout=compact&theme=github_dark&hide_border=true" height="165"/>
+</p>
+
+---
+
+## 🧩 Fun Facts  
+- Cognitive science + machine learning are my intersection of choice.  
+- I enjoy building tools that connect **behavior, data, and decision-making**.  
+- Always working on new analytics dashboards, ML models, or pipeline automation projects.
+
+---
+
+## 📫 Contact  
+- **Email:** kylefischer@berkeley.edu  
+- **LinkedIn:** linkedin.com/in/kylepfischer  
+- **GitHub:** github.com/kylefischer
 
