@@ -1,6 +1,6 @@
 ![Header](./github-header-banner(4).png)
 
---
+---
 
 - 👨‍💻 All of my projects are available at [kylefischer.dev](kylefischer.dev)
 
@@ -8,7 +8,7 @@
 
 - 📄 Know about my experiences [drive.google.com](drive.google.com)
 
---
+---
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
