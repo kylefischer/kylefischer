@@ -113,4 +113,3 @@ When I'm not writing queries, you'll find me exploring new APIs, tinkering with 
 
 <br>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a7f37,100:2ea043&height=120&section=footer" />
