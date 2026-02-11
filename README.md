@@ -100,7 +100,7 @@ WHERE    status = 'building cool stuff';
 ## Contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
   <img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-green-animate.svg" width="100%" />
 </picture>
