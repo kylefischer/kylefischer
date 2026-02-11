@@ -16,36 +16,28 @@
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=2EA043&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=NLP+%C2%B7+Machine+Learning+%C2%B7+Data+Pipelines;Python+%C2%B7+SQL+%C2%B7+Statistical+Modeling" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=2EA043&center=true&vCenter=true&repeat=true&width=600&height=35&lines=NLP+%C2%B7+Machine+Learning+%C2%B7+Data+Pipelines+%C2%B7+Statistical+Modeling" />
 
 </div>
 
 <br>
 
 ```sql
-SELECT * FROM about_me WHERE name = 'Kyle Fischer';
-/*
- * ┌──────────────────────────────────────────────────────────────────┐
- * │  Hey! I'm Kyle — a data scientist studying Cognitive Science    │
- * │  and Data Science at UC Berkeley.                               │
- * │                                                                 │
- * │  I'm fascinated by how people think and how data can help us    │
- * │  understand that better. Whether it's building NLP pipelines,   │
- * │  clustering behavioral patterns, or cleaning messy datasets     │
- * │  at scale — I love turning raw information into something       │
- * │  meaningful.                                                    │
- * │                                                                 │
- * │  Currently doing research at Berkeley's CoRE Lab, working on    │
- * │  semantic analysis of CS education programs nationwide.         │
- * │  Previously built data pipelines and entity-resolution systems  │
- * │  at Haas School of Business.                                    │
- * │                                                                 │
- * │  When I'm not writing queries, you can find me exploring new    │
- * │  APIs, tinkering with ML models, or gaming.                     │
- * └──────────────────────────────────────────────────────────────────┘
- */
--- EOF. Thanks for reading my database.
+SELECT role, organization FROM experience WHERE name = 'Kyle Fischer' ORDER BY start_date DESC;
+
+-- ┌──────────────────────────────────────────┬──────────────────────────────────────────┐
+-- │ role                                     │ organization                             │
+-- ├──────────────────────────────────────────┼──────────────────────────────────────────┤
+-- │ Undergraduate Research Data Scientist    │ Berkeley School of Education CoRE Lab    │
+-- │ Data Analyst                             │ Haas School of Business, UC Berkeley     │
+-- └──────────────────────────────────────────┴──────────────────────────────────────────┘
 ```
+
+I'm a data scientist studying **Cognitive Science** and **Data Science** at UC Berkeley. I'm interested in how people think and how data can help us understand that better — whether it's building NLP pipelines, clustering behavioral patterns, or cleaning messy datasets at scale.
+
+Currently doing research at Berkeley's **CoRE Lab**, working on semantic analysis of CS education programs nationwide. Previously built data pipelines and entity-resolution systems at **Haas School of Business**.
+
+When I'm not writing queries, you'll find me exploring new APIs, tinkering with ML models, or gaming.
 
 <br>
 
@@ -84,14 +76,24 @@ SELECT * FROM about_me WHERE name = 'Kyle Fischer';
 
 <h2>📊 GitHub Stats</h2>
 
-<img src="https://github-readme-stats.vercel.app/api?username=kylefischer&show_icons=true&count_private=true&title_color=2ea043&icon_color=2ea043&text_color=adbac7&bg_color=0d1117&hide_border=true" width="49%" />
-<a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com/?user=kylefischer&theme=dark&background=0d1117&ring=2ea043&fire=2ea043&currStreakLabel=2ea043&hide_border=true" width="49%" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=kylefischer&show_icons=true&count_private=true&title_color=2ea043&icon_color=2ea043&text_color=adbac7&bg_color=0d1117&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=kylefischer&show_icons=true&count_private=true&title_color=1a7f37&icon_color=1a7f37&hide_border=true" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kylefischer&show_icons=true&count_private=true&title_color=2ea043&icon_color=2ea043&text_color=adbac7&bg_color=0d1117&hide_border=true" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=kylefischer&theme=dark&background=0d1117&ring=2ea043&fire=2ea043&currStreakLabel=2ea043&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=kylefischer&hide_border=true&ring=1a7f37&fire=1a7f37&currStreakLabel=1a7f37" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=kylefischer&theme=dark&background=0d1117&ring=2ea043&fire=2ea043&currStreakLabel=2ea043&hide_border=true" />
+</picture>
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kylefischer&layout=compact&title_color=2ea043&text_color=adbac7&bg_color=0d1117&hide_border=true&langs_count=8" width="40%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kylefischer&layout=compact&title_color=2ea043&text_color=adbac7&bg_color=0d1117&hide_border=true&langs_count=8" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kylefischer&layout=compact&title_color=1a7f37&hide_border=true&langs_count=8" />
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kylefischer&layout=compact&title_color=2ea043&text_color=adbac7&bg_color=0d1117&hide_border=true&langs_count=8" />
+</picture>
 
 </div>
 

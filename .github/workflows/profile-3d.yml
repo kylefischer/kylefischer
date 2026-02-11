@@ -44,7 +44,7 @@ jobs:
 
               date_text = date_match.group(0)
               new_content = content[:bars_end] + date_text + '</svg>'
-              new_content = new_content.replace('height="850" viewBox="0 0 1280 850"', 'height="680" viewBox="0 0 1280 680"')
+              # Keep original viewBox — bars extend to y=800+
 
               with open(svg_path, 'w') as f:
                   f.write(new_content)
