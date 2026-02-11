@@ -16,7 +16,7 @@
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=2EA043&center=true&vCenter=true&repeat=true&width=600&height=35&lines=NLP+%C2%B7+Machine+Learning+%C2%B7+Data+Pipelines+%C2%B7+Statistical+Modeling" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=2EA043&center=true&vCenter=true&repeat=true&width=450&height=35&lines=Machine+Learning+%C2%B7+NLP;Data+Pipelines+%C2%B7+Analytics;Statistical+Modeling+%C2%B7+Python" />
 
 </div>
 
