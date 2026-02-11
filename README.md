@@ -4,20 +4,14 @@
 
 <br>
 
-<a href="https://github.com/kylefischer">
-  <img src="https://img.shields.io/github/followers/kylefischer?label=Followers&style=for-the-badge&color=1a7f37&labelColor=0d1117" />
-</a>
-<a href="https://github.com/kylefischer?tab=repositories">
-  <img src="https://img.shields.io/github/stars/kylefischer?label=Stars&style=for-the-badge&color=1a7f37&labelColor=0d1117" />
-</a>
-
-<br><br>
-
 <a href="https://linkedin.com/in/kylepfischer">
   <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <a href="mailto:kylefischer@berkeley.edu">
   <img src="https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://kylefischer.dev">
+  <img src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
 
 <br><br>
@@ -29,86 +23,28 @@
 <br>
 
 ```sql
+SELECT * FROM about_me WHERE name = 'Kyle Fischer';
 /*
- * =============================================
- *   $ whoami → kyle_fischer
- *   @ Berkeley School of Education CoRE Lab
- *   @ Haas School of Business, UC Berkeley
- * =============================================
+ * ┌──────────────────────────────────────────────────────────────────┐
+ * │  Hey! I'm Kyle — a data scientist studying Cognitive Science    │
+ * │  and Data Science at UC Berkeley.                               │
+ * │                                                                 │
+ * │  I'm fascinated by how people think and how data can help us    │
+ * │  understand that better. Whether it's building NLP pipelines,   │
+ * │  clustering behavioral patterns, or cleaning messy datasets     │
+ * │  at scale — I love turning raw information into something       │
+ * │  meaningful.                                                    │
+ * │                                                                 │
+ * │  Currently doing research at Berkeley's CoRE Lab, working on    │
+ * │  semantic analysis of CS education programs nationwide.         │
+ * │  Previously built data pipelines and entity-resolution systems  │
+ * │  at Haas School of Business.                                    │
+ * │                                                                 │
+ * │  When I'm not writing queries, you can find me exploring new    │
+ * │  APIs, tinkering with ML models, or gaming.                     │
+ * └──────────────────────────────────────────────────────────────────┘
  */
-
-SELECT *
-FROM   about_me
-WHERE  role = 'Data Scientist'
-AND    university = 'UC Berkeley';
-
--- ┌──────────────────────────────────────────────────────────┐
--- │  RESULT SET: 1 row returned                             │
--- ├──────────────────────────────────────────────────────────┤
--- │  name       : Kyle Fischer                              │
--- │  degree     : B.A. Cognitive Science, Minor Data Science │
--- │  location   : Berkeley, CA                              │
--- │  focus      : ML · NLP · Statistical Modeling · Pipelines│
--- └──────────────────────────────────────────────────────────┘
-
-SELECT   skill, proficiency
-FROM     technical_skills
-ORDER BY proficiency DESC;
-
--- LANGUAGES
--- ─────────────────────────────
--- Python          ████████████  expert
--- SQL (Postgres)  ████████████  expert
--- JavaScript      ████████░░░░  advanced
--- R               ███████░░░░░  advanced
--- Java            ██████░░░░░░  proficient
--- HTML/CSS        ██████░░░░░░  proficient
-
--- FRAMEWORKS & TOOLS
--- ─────────────────────────────
--- Pandas          ████████████  expert
--- Scikit-Learn    ███████████░  expert
--- NumPy           ███████████░  expert
--- TensorFlow      ████████░░░░  advanced
--- HuggingFace     ████████░░░░  advanced
--- Matplotlib      ████████████  expert
--- Beautiful Soup  ███████░░░░░  advanced
--- FastAPI         ██████░░░░░░  proficient
--- Jupyter         ████████████  expert
-
-SELECT   project_name,
-         stack,
-         description
-FROM     projects
-ORDER BY cool_factor DESC;
-
--- ┌─────────────────────────────────────────────────────────────────────┐
--- │ Brawl Stars Analytics Dashboard                                    │
--- │ Python · Pandas · NumPy · Streamlit · Plotly · Brawlstats API      │
--- │ Real-time analytics dashboard processing 25+ matches per user,     │
--- │ with EDA, metric generation, and interactive visualizations.       │
--- ├─────────────────────────────────────────────────────────────────────┤
--- │ Spotify Taste Profiler                                             │
--- │ Python · Pandas · Matplotlib · Scikit-learn · Spotipy API          │
--- │ Unsupervised learning pipeline using K-means clustering to model   │
--- │ user listening behavior across 300 top tracks per user.            │
--- └─────────────────────────────────────────────────────────────────────┘
-
-SELECT   role, organization, highlight
-FROM     experience
-WHERE    status = 'building cool stuff';
-
--- ┌─────────────────────────────────────────────────────────────────────┐
--- │ Undergraduate Research Data Scientist                              │
--- │ Berkeley School of Education CoRE Lab                              │
--- │ NLP pipeline with SBERT embeddings across 300+ course descriptions │
--- ├─────────────────────────────────────────────────────────────────────┤
--- │ Data Analyst                                                       │
--- │ Haas School of Business, UC Berkeley                               │
--- │ Entity-resolution algorithms achieving 95%+ precision on 10M+ rows│
--- └─────────────────────────────────────────────────────────────────────┘
-
--- EOF. Thanks for reading my database. ─── Kyle Fischer © 2026
+-- EOF. Thanks for reading my database.
 ```
 
 <br>
@@ -119,10 +55,11 @@ WHERE    status = 'building cool stuff';
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" />
+<img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" />
 <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/HTML/CSS-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 
 <br>
 
@@ -134,10 +71,10 @@ WHERE    status = 'building cool stuff';
 
 <br>
 
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" />
 
 </div>
 
@@ -147,14 +84,14 @@ WHERE    status = 'building cool stuff';
 
 <h2>📊 GitHub Stats</h2>
 
-<img src="https://github-readme-stats.vercel.app/api?username=kylefischer&show_icons=true&theme=radical&show=reviews&count_private=true&title_color=2ea043&icon_color=2ea043&text_color=adbac7&bg_color=0,0d1117,0d1117&hide_border=true" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api?username=kylefischer&show_icons=true&count_private=true&title_color=2ea043&icon_color=2ea043&text_color=adbac7&bg_color=0d1117&hide_border=true" width="49%" />
 <a href="https://git.io/streak-stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kylefischer&theme=dark&background=0d1117&ring=2ea043&fire=2ea043&currStreakLabel=2ea043&hide_border=true" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=kylefischer&theme=dark&background=0d1117&ring=2ea043&fire=2ea043&currStreakLabel=2ea043&hide_border=true" width="49%" />
 </a>
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kylefischer&layout=compact&theme=radical&title_color=2ea043&text_color=adbac7&bg_color=0d1117&hide_border=true&langs_count=8" width="40%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kylefischer&layout=compact&title_color=2ea043&text_color=adbac7&bg_color=0d1117&hide_border=true&langs_count=8" width="40%" />
 
 </div>
 

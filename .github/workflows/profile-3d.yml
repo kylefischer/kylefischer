@@ -2,7 +2,7 @@ name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    - cron: "0 10 * * *" # Runs daily at 2:00 AM PST / 10:00 UTC
+    - cron: "0 10 * * *"
   workflow_dispatch:
 
 permissions:
@@ -19,6 +19,38 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: profile-3d-settings.json
+
+      - name: Strip radar and pie charts from SVG
+        run: |
+          python3 << 'PYEOF'
+          import re, glob
+
+          for svg_path in glob.glob('profile-3d-contrib/profile-green-animate*.svg'):
+              with open(svg_path, 'r') as f:
+                  content = f.read()
+
+              bars_end = content.find('</g></g><g transform="translate(980')
+              if bars_end < 0:
+                  bars_end = content.find('</g></g><g transform="translate(9')
+              if bars_end < 0:
+                  print(f"SKIP {svg_path}: no radar chart found")
+                  continue
+              bars_end += len('</g></g>')
+
+              date_match = re.search(r'<text[^>]*>\d{4}-\d{2}-\d{2}\s*/\s*\d{4}-\d{2}-\d{2}</text>', content)
+              if not date_match:
+                  print(f"SKIP {svg_path}: no date text found")
+                  continue
+
+              date_text = date_match.group(0)
+              new_content = content[:bars_end] + date_text + '</svg>'
+              new_content = new_content.replace('height="850" viewBox="0 0 1280 850"', 'height="680" viewBox="0 0 1280 680"')
+
+              with open(svg_path, 'w') as f:
+                  f.write(new_content)
+              print(f"Stripped {svg_path}: {len(content)} -> {len(new_content)} chars")
+          PYEOF
+
       - name: Commit & Push
         run: |
           git config user.name github-actions
