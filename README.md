@@ -23,7 +23,10 @@
 <br>
 
 ```sql
-SELECT role, organization FROM experience WHERE name = 'Kyle Fischer' ORDER BY start_date DESC;
+SELECT role, organization
+FROM experience
+WHERE name = 'Kyle Fischer'
+ORDER BY start_date DESC;
 
 -- ┌──────────────────────────────────────────┬──────────────────────────────────────────┐
 -- │ role                                     │ organization                             │
